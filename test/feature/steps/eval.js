@@ -8,7 +8,7 @@ const sinonChai = require('sinon-chai');
 const chalk = require('chalk');
 const sinon = require('sinon');
 
-const controller = require('controller');
+const controller = require('controllerAutolab');
 const preferenceManager = require('utilsAutolab/preference-manager');
 
 chai.use(sinonChai);

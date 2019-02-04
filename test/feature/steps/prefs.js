@@ -7,7 +7,7 @@ const chalk = require('chalk');
 const Table = require('cli-table');
 const fs = require('fs-extra');
 const path = require('path');
-const controller = require('controller');
+const controller = require('controllerAutolab');
 const preferenceManager = require('utilsAutolab/preference-manager');
 const PromptGenerator = require('utilsAutolab/PromptGenerator');
 
