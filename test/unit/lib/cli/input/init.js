@@ -3,7 +3,7 @@ const sinonChai = require('sinon-chai');
 const chai = require('chai');
 const chaiAsPromised = require('chai-as-promised');
 const inquirer = require('inquirer');
-const initInput = require('../../../../../lib/cli/input/init');
+const initInput = require('inputAutolab/init');
 
 chai.use(chaiAsPromised);
 chai.use(sinonChai);

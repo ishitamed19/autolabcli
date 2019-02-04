@@ -8,9 +8,9 @@ chai.use(chaiAsPromised);
 chai.use(sinonChai);
 chai.should();
 
-const { logger } = require('../../../../lib/utils/logger');
-const preferenceManager = require('../../../../lib/utils/preference-manager');
-const evalModel = require('../../../../lib/model/eval');
+const { logger } = require('utilsAutolab/logger');
+const preferenceManager = require('utilsAutolab/preference-manager');
+const evalModel = require('modelAutolab/eval');
 
 const mockOptions = {
   name: 'evaluate',

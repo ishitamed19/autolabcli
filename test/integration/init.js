@@ -5,9 +5,9 @@ const figlet = require('figlet');
 const chalk = require('chalk');
 const nock = require('nock');
 const inquirer = require('inquirer');
-const controller = require('../../lib/controller');
-const preferenceManager = require('../../lib/utils/preference-manager');
-const { logger } = require('../../lib/utils/logger');
+const controller = require('controllerAutolab');
+const preferenceManager = require('utilsAutolab/preference-manager');
+const { logger } = require('utilsAutolab/logger');
 
 let host = 'autolab.bits-goa.ac.in';
 if (preferenceManager.getPreference({ name: 'cliPrefs' }).gitlab) {

@@ -4,7 +4,7 @@ const sinonChai = require('sinon-chai');
 const chalk = require('chalk');
 const figlet = require('figlet');
 
-const initOutput = require('../../../../../lib/cli/output/init');
+const initOutput = require('outputAutolab/init');
 
 chai.use(sinonChai);
 chai.should();

@@ -7,8 +7,8 @@ const sinonChai = require('sinon-chai');
 chai.use(sinonChai);
 chai.should();
 
-const commandValidator = require('../../../../lib/utils/command-validator');
-const preferenceManager = require('../../../../lib/utils/preference-manager');
+const commandValidator = require('utilsAutolab/command-validator');
+const preferenceManager = require('utilsAutolab/preference-manager');
 
 chai.use(chaiAsPromised);
 chai.should();

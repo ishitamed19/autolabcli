@@ -8,8 +8,8 @@ const fs = require('fs');
 chai.use(sinonChai);
 chai.should();
 
-const prefsValidator = require('../../../../../lib/controller/validate/prefs');
-const preferenceManager = require('../../../../../lib/utils/preference-manager');
+const prefsValidator = require('controllerAutolab/validate/prefs');
+const preferenceManager = require('utilsAutolab/preference-manager');
 
 const defaultPrefPath = path.join(__dirname, '../../../../../default-prefs.json');
 const defaultPrefs = JSON.parse(fs.readFileSync(defaultPrefPath, 'utf8'));

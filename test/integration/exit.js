@@ -2,9 +2,9 @@ const chai = require('chai');
 const sinon = require('sinon');
 const sinonChai = require('sinon-chai');
 const nock = require('nock');
-const controller = require('../../lib/controller');
-const preferenceManager = require('../../lib/utils/preference-manager');
-const { logger } = require('../../lib/utils/logger');
+const controller = require('controllerAutolab');
+const preferenceManager = require('utilsAutolab/preference-manager');
+const { logger } = require('utilsAutolab/logger');
 
 chai.use(sinonChai);
 chai.should();

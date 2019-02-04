@@ -3,8 +3,8 @@ const sinonChai = require('sinon-chai');
 const chai = require('chai');
 const chaiAsPromised = require('chai-as-promised');
 const inquirer = require('inquirer');
-const evalInput = require('../../../../../lib/cli/input/eval');
-const preferenceManager = require('../../../../../lib/utils/preference-manager');
+const evalInput = require('inputAutolab/eval');
+const preferenceManager = require('utilsAutolab/preference-manager');
 
 chai.use(chaiAsPromised);
 chai.use(sinonChai);

@@ -3,11 +3,11 @@ const sinon = require('sinon');
 const sinonChai = require('sinon-chai');
 const program = require('caporal');
 
-const { logger } = require('../../../../lib/utils/logger');
-const initInput = require('../../../../lib/cli/input/init');
-const initOutput = require('../../../../lib/cli/output/init');
-const initModel = require('../../../../lib/model/init');
-const initController = require('../../../../lib/controller/init');
+const { logger } = require('utilsAutolab/logger');
+const initInput = require('inputAutolab/init');
+const initOutput = require('outputAutolab/init');
+const initModel = require('modelAutolab/init');
+const initController = require('controllerAutolab/init');
 
 chai.use(sinonChai);
 chai.should();

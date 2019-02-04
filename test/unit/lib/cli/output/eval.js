@@ -4,7 +4,7 @@ const sinonChai = require('sinon-chai');
 const chalk = require('chalk');
 const Table = require('cli-table');
 
-const evalOutput = require('../../../../../lib/cli/output/eval');
+const evalOutput = require('outputAutolab/eval');
 
 const testCaseColWidth = 15;
 const statusColWidth = 25;

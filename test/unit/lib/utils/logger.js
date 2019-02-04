@@ -3,7 +3,7 @@ const sinon = require('sinon');
 const sinonChai = require('sinon-chai');
 const winston = require('winston');
 
-const { logger } = require('../../../../lib/utils/logger');
+const { logger } = require('utilsAutolab/logger');
 
 chai.use(sinonChai);
 chai.should();

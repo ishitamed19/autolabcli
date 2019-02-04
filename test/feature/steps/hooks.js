@@ -1,7 +1,7 @@
 const { Before, After } = require('cucumber');
 const sinon = require('sinon');
 const inquirer = require('inquirer');
-const { logger } = require('../../../lib/utils/logger');
+const { logger } = require('utilsAutolab/logger');
 
 // These hooks run before each scenario, of every feature.
 

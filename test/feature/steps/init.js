@@ -8,9 +8,9 @@ const fs = require('fs');
 const path = require('path');
 const sinonChai = require('sinon-chai');
 
-const controller = require('../../../lib/controller');
-const initInput = require('../../../lib/cli/input/init');
-const preferenceManager = require('../../../lib/utils/preference-manager');
+const controller = require('controllerAutolab');
+const initInput = require('inputAutolab/init');
+const preferenceManager = require('utilsAutolab/preference-manager');
 
 chai.use(sinonChai);
 chai.use(chaiAsPromised);

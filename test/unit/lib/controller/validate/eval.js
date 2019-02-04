@@ -3,7 +3,7 @@ const chai = require('chai');
 const path = require('path');
 const fs = require('fs');
 
-const evalValidator = require('../../../../../lib/controller/validate/eval');
+const evalValidator = require('controllerAutolab/validate/eval');
 
 const defaultPrefPath = path.join(__dirname, '../../../../../default-prefs.json');
 const defaultPrefs = JSON.parse(fs.readFileSync(defaultPrefPath, 'utf8'));

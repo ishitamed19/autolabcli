@@ -7,9 +7,9 @@ const chalk = require('chalk');
 const Table = require('cli-table');
 const fs = require('fs-extra');
 const path = require('path');
-const controller = require('../../../lib/controller');
-const preferenceManager = require('../../../lib/utils/preference-manager');
-const PromptGenerator = require('../../../lib/utils/PromptGenerator');
+const controller = require('controller');
+const preferenceManager = require('utilsAutolab/preference-manager');
+const PromptGenerator = require('utilsAutolab/PromptGenerator');
 
 const defaultPrefPath = path.join(__dirname, '../../../default-prefs.json');
 const defaultPrefs = JSON.parse(fs.readFileSync(defaultPrefPath, 'utf8'));

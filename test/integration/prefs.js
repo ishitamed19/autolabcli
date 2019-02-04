@@ -6,9 +6,9 @@ const inquirer = require('inquirer');
 const Table = require('cli-table');
 const path = require('path');
 const fs = require('fs');
-const controller = require('../../lib/controller');
-const preferenceManager = require('../../lib/utils/preference-manager');
-const { logger } = require('../../lib/utils/logger');
+const controller = require('controllerAutolab');
+const preferenceManager = require('utilsAutolab/preference-manager');
+const { logger } = require('utilsAutolab/logger');
 
 const defaultPrefPath = path.join(__dirname, '../../default-prefs.json');
 const defaultPrefs = JSON.parse(fs.readFileSync(defaultPrefPath, 'utf8'));

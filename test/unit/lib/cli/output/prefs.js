@@ -6,7 +6,7 @@ const Table = require('cli-table');
 const path = require('path');
 const fs = require('fs');
 
-const prefsOutput = require('../../../../../lib/cli/output/prefs');
+const prefsOutput = require('outputAutolab/prefs');
 
 const defaultPrefPath = path.join(__dirname, '../../../../../default-prefs.json');
 const defaultPrefs = JSON.parse(fs.readFileSync(defaultPrefPath, 'utf8'));

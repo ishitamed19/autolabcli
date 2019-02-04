@@ -7,9 +7,9 @@ const nock = require('nock');
 chai.use(sinonChai);
 chai.should();
 
-const preferenceManager = require('../../../../lib/utils/preference-manager');
-const initModel = require('../../../../lib/model/init');
-const { logger } = require('../../../../lib/utils/logger');
+const preferenceManager = require('utilsAutolab/preference-manager');
+const initModel = require('modelAutolab/init');
+const { logger } = require('utilsAutolab/logger');
 
 let host = 'autolab.bits-goa.ac.in';
 if (preferenceManager.getPreference({ name: 'cliPrefs' }).gitlab) {

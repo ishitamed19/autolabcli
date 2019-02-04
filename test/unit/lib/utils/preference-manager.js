@@ -3,7 +3,7 @@ const sinon = require('sinon');
 const sinonChai = require('sinon-chai');
 const Preferences = require('preferences');
 
-const preferenceManager = require('../../../../lib/utils/preference-manager');
+const preferenceManager = require('utilsAutolab/preference-manager');
 const defaultPrefs = require('../../../../default-prefs.json');
 
 const { submission } = defaultPrefs;

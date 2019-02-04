@@ -5,10 +5,10 @@ const chalk = require('chalk');
 const inquirer = require('inquirer');
 const Table = require('cli-table');
 const io = require('socket.io-client');
-const { logger } = require('../../lib/utils/logger');
-const controller = require('../../lib/controller');
-const preferenceManager = require('../../lib/utils/preference-manager');
-const commandValidator = require('../../lib/utils/command-validator');
+const { logger } = require('utilsAutolab/logger');
+const controller = require('controllerAutolab');
+const preferenceManager = require('utilsAutolab/preference-manager');
+const commandValidator = require('utilsAutolab/command-validator');
 
 chai.use(sinonChai);
 chai.should();

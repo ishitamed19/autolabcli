@@ -7,7 +7,7 @@ const sinonChai = require('sinon-chai');
 chai.use(sinonChai);
 chai.should();
 
-const prefsInput = require('../../../../../lib/cli/input/prefs');
+const prefsInput = require('inputAutolab/prefs');
 
 chai.use(chaiAsPromised);
 chai.should();
